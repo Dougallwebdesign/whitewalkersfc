@@ -1,0 +1,95 @@
+/* color pallette
+bg #eeebf2
+card-bottom #f1f1f1 
+border line #cccccc*/
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ================
+===== Typography =====
+==================== */
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.team-section h2 {
+    border-bottom: 5px solid #cccccc;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive;
+    font-size: xx-large;
+}
+
+.team-columns img {
+    margin-bottom: 0;
+    /* padding: 30px; */
+}
+
+.team-columns p {
+    text-align: center;
+}
+
+/* ================
+===== Layout =====
+==================== */
+
+main {
+    background: #eeebf2;
+}
+
+main, header {
+    padding: 10px 25px;
+}
+
+nav {
+    float: right;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 25px 0;
+    color: black;
+}
+
+nav a {
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.team-columns {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: yellow dashed 5px; */
+}
+
+.team-columns .col {
+    /* border: red dashed 5px; */
+    margin: 20px;
+    box-shadow: 5px 10px 10px #cccccc;
+}
+
+.team-columns img:hover,
+.team-columns img:active {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
