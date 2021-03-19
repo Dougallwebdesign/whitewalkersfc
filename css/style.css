@@ -7,6 +7,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     font-family: "Raleway", sans-serif;
+    background: #eeebf2;
 }
 
 img {
@@ -20,6 +21,11 @@ img {
 h1 {
     text-align: center;
     font-size: xx-large;
+}
+
+h3,
+h5 {
+    margin: 1em 0;
 }
 
 .team-section h2 {
@@ -40,6 +46,10 @@ h1 {
     text-align: center;
 }
 
+.fixture-button-columns p {
+    text-align: right;
+}
+
 /* ================
 ===== Layout =====
 ==================== */
@@ -50,6 +60,10 @@ main {
 
 main, header {
     padding: 10px 25px;
+}
+
+header {
+    background: #fff;
 }
 
 nav {
@@ -87,7 +101,30 @@ nav a {
     opacity: 0.5;
 }
 
+.fixture-columns,
+.fixture-card-columns,
+.fixture-button-columns {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.fixture-card {
+    /* border: yellow dashed 5px; */
+    box-shadow: 5px 10px 10px #cccccc;
+    text-align: center;
+}
+
+.fixture-card img {
+    width: 50%;
+}
+
+/* ================
+===== Button =====
+==================== */
+
+.fixture-button-columns {
+    display: none;
+}
 
 
 
