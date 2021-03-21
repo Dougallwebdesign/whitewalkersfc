@@ -126,7 +126,16 @@ nav a {
     display: none;
 }
 
+.match-btn {
+    padding: 10px 20px;
+    margin: 20px 0;
+    /* border-color: #030b54; */
+}
 
+.match-btn:hover,
+.match-btn:active {
+    box-shadow: 5px 10px 10px #cccccc;
+}
 
 
 
