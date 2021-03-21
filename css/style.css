@@ -66,17 +66,19 @@ header {
     background: #fff;
 }
 
-nav {
-    float: right;
-    text-decoration: none;
-    font-size: x-large;
-    padding: 25px 0;
-    color: black;
+/* navigation */
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
     padding-left: 50px;
     text-decoration: none;
+    font-size: x-large;
+    /* padding: 25px 0; */
+    /* color: black; */
 }
 
 .hero {
@@ -118,9 +120,7 @@ nav a {
     width: 50%;
 }
 
-/* ================
-===== Button =====
-==================== */
+/* buttons */
 
 .fixture-button-columns {
     display: none;
