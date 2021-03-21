@@ -71,12 +71,14 @@ header {
 .container-nav {
     display: flex;
     justify-content: space-between;
+    border: 1px dashed blue;
 }
 
 nav a {
     padding-left: 50px;
     text-decoration: none;
     font-size: x-large;
+    border: 1px dashed blue;
     /* padding: 25px 0; */
     /* color: black; */
 }
