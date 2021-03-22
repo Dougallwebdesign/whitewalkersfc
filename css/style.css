@@ -158,13 +158,29 @@ nav a {
 .league-table {
     background-color: #030b54;
     color: #eeebf2;
-    margin: 2em 0;
-    padding: 1em 0;
+    margin-top: 2em;
+    padding: 2em 0;
 }
 
 .league-table table {
     margin: 0 auto;
     padding: 1em;
+}
+
+/* sponsers */
+.sponsers {
+    background: #FFF;
+    margin-top: 0;
+    padding: 2em;
+}
+
+.sponsers a {
+    padding: 2.5em;;
+}
+
+/* footer */
+footer {
+    padding: 2em;
 }
 
 
