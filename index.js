@@ -10,7 +10,7 @@ let matchDetails = true;
 
 //Match button logic once finished do DRY
 matchBtn[0].addEventListener("click", function(){
-    if (matchDetails ==true) {
+    if (matchDetails == true) {
         matchDetails = false
         styleMatchDetails[0].style.display = "flex"
     } else {
@@ -20,12 +20,22 @@ matchBtn[0].addEventListener("click", function(){
 })
 
 matchBtn[1].addEventListener("click", function(){
-    if (matchDetails ==true) {
+    if (matchDetails == true) {
         matchDetails = false
         styleMatchDetails[1].style.display = "flex"
     } else {
         matchDetails = true
         styleMatchDetails[1].style.display = "none"
+    }
+})
+
+matchBtn[2].addEventListener("click", function(){
+    if (matchDetails == true) {
+        matchDetails = false
+        styleMatchDetails[2].style.display = "flex"
+    } else {
+        matchDetails = true
+        styleMatchDetails[2].style.display = "none"
     }
 })
 

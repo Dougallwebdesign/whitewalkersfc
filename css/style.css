@@ -1,7 +1,8 @@
 /* color pallette
 bg #eeebf2
 card-bottom #f1f1f1 
-border line #cccccc*/
+border line #cccccc
+league table bg #030b54*/
 
 body {
     max-width: 1600px;
@@ -18,8 +19,16 @@ img {
 ===== Typography =====
 ==================== */
 
-h1 {
+/* text align center */
+h1,
+h5,
+.fixture-card,
+.sponsers,
+footer {
     text-align: center;
+}
+
+h1 {
     font-size: xx-large;
 }
 
@@ -112,14 +121,19 @@ nav a {
     justify-content: space-evenly;
 }
 
+/* fixture cards */
+
 .fixture-card {
     /* border: yellow dashed 5px; */
     box-shadow: 5px 10px 10px #cccccc;
-    text-align: center;
 }
 
 .fixture-card img {
     width: 50%;
+}
+
+.bg-white {
+    background: #FFF;
 }
 
 /* buttons */
@@ -137,6 +151,20 @@ nav a {
 .match-btn:hover,
 .match-btn:active {
     box-shadow: 5px 10px 10px #cccccc;
+}
+
+/* League Table */
+
+.league-table {
+    background-color: #030b54;
+    color: #eeebf2;
+    margin: 2em 0;
+    padding: 1em 0;
+}
+
+.league-table table {
+    margin: 0 auto;
+    padding: 1em;
 }
 
 
